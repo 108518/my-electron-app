@@ -1,6 +1,7 @@
 # my-electron-app
 
-1、npm i @gar/promisify
-2、npm install
-3、npm run make
+
+<br>1、npm i @gar/promisify
+<br>2、npm install
+<br>3、npm run make
 
