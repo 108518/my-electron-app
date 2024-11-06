@@ -10,8 +10,15 @@ const createWindow = () => {
     }
   })
 
-  win.loadFile('index.html')
+  //win.loadFile('index.html')
+  win.loadURL('http://218.17.94.74:88/eos/kuanshi.html')
+
+  const contents = win.webContents
+  //console.log(contents)
+
 }
+
+
 
 app.whenReady().then(() => {
   createWindow()
