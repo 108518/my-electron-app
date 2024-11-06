@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron/main')
+require('./menu')
 const path = require('node:path')
 
 const createWindow = () => {
